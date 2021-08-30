@@ -9,7 +9,7 @@
  
 ## Setup/Installation Requirements
 
-Live link to view the project [link] 
+Live link to view the project [link] https://albunus.github.io/My-portofolio/
 
 ## Known Bugs
 implimentation challanges
