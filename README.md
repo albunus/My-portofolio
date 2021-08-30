@@ -1,16 +1,27 @@
 # My-portofolio
 
+#### This is a website that intends to give a platform to show my portofolio, 30th Agust 2021. version (1.0)
+#### Developed By 
+[Albunus](https://github.com/albunus)
 
+## Description
+ This website is made show my portofolio.
+ 
+## Setup/Installation Requirements
 
+Live link to view the project [link] 
 
+## Known Bugs
+implimentation challanges
 
+## Technologies Used
+The technologies used include HTML and CSS 
 
+<!-- ## Design of our project -->
 
-
-
-
-
-
+## Support and contact details
+📫 How to reach me **albunus.nyalita@student.moringaschool.com**
+### License
 MIT License
 
 Copyright (c) 2021 Albunus
