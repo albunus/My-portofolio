@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 :root {
     --red: #ff3838;
 }
-*{
+
+* {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     /* width: 100%; */
@@ -15,31 +17,36 @@
     text-transform: capitalize;
     transition: all .2s linear; */
 }
-.container{
+
+.container {
     background-image: url(./Assests/photo-1518655048521-f130df041f66.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.img >img{
+
+.img>img {
     height: 100px;
     width: 100px;
     border-radius: 30px;
     margin: 3rem;
 }
-.img{
+
+.img {
     position: relative;
     top: 5px;
     left: auto;
-   width: 50px;
-   height: 50px;
+    width: 50px;
+    height: 50px;
 }
+
 /* .nav{
     margin: 2rem;
 } */
 
-.card{
+.card {
     background-color: aqua;
+
 }
 
 .menu {
@@ -55,14 +62,17 @@
     justify-items: center;
     justify-content: center;
 
-   
+
 
 }
-.menu a{
+
+
+.menu a {
     /* padding: 1rem; */
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-left: 90px;
 }
+
 /* #bdy{
     font-size: 20px;
     width: 200px;
@@ -74,28 +84,53 @@ justify-content: center;
 
 
 } */
-#row{
+#row {
     align-items: center;
-    height: 400px;
-  top: 150px;
-  position: relative;
-  left: 40%;
-  /* padding: 300px */
+    /* height: 400px; */
+    top: 150px;
+    position: relative;
+    /* left: 20%; */
+    /* padding: 300px */
+    justify-content: center;
 }
 
-#row a{
+#row a {
     margin: 3rem;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 50px;
     width: 50px;
     /* border-bottom: 2rem solid beige ; */
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 5rem;
+}
+.bdy{
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+}
+#row h1{
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.button{
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border-bottom: 1rem solid black;
+    justify-content: center;
+    justify-items: center;
 }
 
 
-
-
-
+#about img{
+    height: 600px;
+}
 
 
 
@@ -106,20 +141,23 @@ justify-content: center;
     background: #000;
     text-align: center;
 }
-.footer >#contact-us{
+
+.footer>#contact-us {
     padding: 1rem 1rem;
     color: #fff;
     font-weight: normal;
     font-size: 1rem;
 }
-#comment{
+
+#comment {
     height: 80px;
 }
 
-#button:hover{
+#button:hover {
     background-color: red;
     color: black;
 }
+
 .footer .share {
     display: flex;
     gap: 3rem;
@@ -139,9 +177,17 @@ justify-content: center;
 }
 
 
- @media only screen and (min-width: 400px) {
-    .card{
-       justify-content: space-between;
-       justify-content: center;
+@media only screen and (max-width: 600px) {
+    .card {
+        justify-content: space-between;
+        justify-content: center;
+        background-color: chartreuse;
+        align-items: center;
     }
-  } 
+    .card img{
+justify-content: space-between;
+    }
+    html{
+        font-size: auto;
+    }
+}
